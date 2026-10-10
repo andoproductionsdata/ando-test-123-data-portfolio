@@ -1,5 +1,5 @@
 {
-  "theme": "purple",
+  "theme": "dark-blue",
   "profile": {
     "name": "Ando Test 123",
     "role": "Data Analyst",
@@ -74,6 +74,11 @@
       "name": "Salesforce",
       "description": "CRM data analysis, reporting, pipeline and sales insights",
       "logo": "/logo-salesforce.png"
+    },
+    {
+      "name": "Snowflake",
+      "description": "its cool",
+      "logo": "/skill-snowflake.png"
     }
   ],
   "tools": [],
@@ -130,7 +135,7 @@
       "role": "Data Analyst",
       "duration": "",
       "summary": "This project simulates a real-world contact center for Energy Plus, a fictional electricity provider. The business relied on manual spreadsheets and inconsistent reporting, making it difficult for leadership to monitor operational performance, sales activity, service levels, and agent productivity.\n\nTo solve this, the objective was to design and build an interactive KPI dashboard that provides clear visibility into contact center performance, supports data-driven decision-making, and helps identify opportunities to improve efficiency, customer service, and sales outcomes.",
-      "preview": "/placeholder.svg",
+      "preview": "/project-contact-centre-kpi-performance-project-thumb.png",
       "challenge": [
         "This project simulates a real-world contact center for Energy Plus, a fictional electricity provider. The business relied on manual spreadsheets and inconsistent reporting, making it difficult for leadership to monitor operational performance, sales activity, service levels, and agent productivity.\n\nTo solve this, the objective was to design and build an interactive KPI dashboard that provides clear visibility into contact center performance, supports data-driven decision-making, and helps identify opportunities to improve efficiency, customer service, and sales outcomes."
       ],
@@ -165,43 +170,7 @@
           "type": "dashboard",
           "title": "Power BI Dashboard",
           "description": "The Energy Plus Contact Centre Dashboard is shown below. This Power BI solution was built from the business requirements and SQL data model presented above. Below is a summary of each dashboard page, including its purpose and the key benefits it provides to business users.",
-          "slides": [
-            {
-              "title": "Summary & Glossary",
-              "description": [
-                "This page serves as a reference point for stakeholders, providing essential context and definitions for the dashboard. It includes key metadata such as the report creation date, last review date, business owner, and report owner. A brief summary explains the purpose and scope of the report, helping users quickly understand what it covers.\n\nKey Performance Indicators (KPIs) are also listed on this page, drawn directly from the project requirements, to give managers a clear understanding of the metrics being tracked. Additionally, a glossary has been included to define key terms and metrics, supporting consistent interpretation across all users."
-              ],
-              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-1.png"
-            },
-            {
-              "title": "Contact Centre Operations",
-              "description": [
-                "This page provides senior managers and executives with a high-level view of contact centre performance throughout the year, making it easy to assess whether key monthly targets are being achieved.\n\nThe primary focus is the Connection KPI (target: 1,800 connections per month) and Service Level (target: 75%). Colour-coded KPIs provide instant insight, with green indicating targets have been met and red highlighting areas requiring attention.\n\n- Executive Summary: A single, high-level view of contact centre performance.\n- Instant KPI Monitoring: Colour-coded indicators quickly show whether monthly targets have been met.\n- Better Decision Making: Clear performance insights support operational and strategic decisions.\n- Trend Analysis: Track performance over time to identify trends, seasonal patterns, and potential issues early."
-              ],
-              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-2.png"
-            },
-            {
-              "title": "Agent Operations",
-              "description": [
-                "This page is designed for team managers, providing detailed visibility into individual agent performance throughout the year. It tracks key metrics, including whether agents are achieving their monthly target of 100 connections and maintaining a conversion rate above 10%.\n\nThe dashboard helps managers recognise top performers, identify agents who need support, and deliver targeted coaching using detailed performance metrics.\n\nPerformance Tracking: Quickly identify which agents are meeting or missing their KPIs.\nTargeted Coaching: Pinpoint areas where individual agents need improvement.\nRecognition: Easily identify high-performing agents for reward and recognition."
-              ],
-              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-3.png"
-            },
-            {
-              "title": "Team Operations",
-              "description": [
-                "This page gives team leaders a complete view of team performance, allowing them to quickly identify top performers, monitor overall progress, and assess whether team targets are being met—all from a single dashboard.\n\nTeam Overview: View the entire team's performance in one place.\nTarget Tracking: Monitor progress against team KPIs.\nPerformance Comparison: Compare agents to identify gaps and coaching opportunities.\nFaster Decision Making: Save time with a single, consolidated view of team performance."
-              ],
-              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-4.png"
-            },
-            {
-              "title": "Cross-Team Performance",
-              "description": [
-                "This page provides senior managers with a comparison of team performance across the contact centre. It highlights key metrics such as connections, conversion rates, and service levels, making it easy to identify top-performing teams and ensure all teams are meeting performance expectations.\n\nTeam Comparison: View all teams side by side in one dashboard.\nCentre-Wide Visibility: Monitor overall contact centre performance at a glance.\nPerformance Monitoring: Ensure all teams are meeting key KPIs.\nBetter Decision Making: Use insights to guide coaching, resource allocation, and process improvements."
-              ],
-              "image": "/project-contact-centre-kpi-performance-project-cc-3-slide-5.png"
-            }
-          ]
+          "slides": []
         },
         {
           "type": "text",
@@ -218,9 +187,9 @@
       "gallery": []
     },
     {
-      "slug": "project-summary",
+      "slug": "insurance-kpi-project",
       "projectMode": "custom",
-      "title": "Project Summary",
+      "title": "Insurance KPI Project",
       "tools": [],
       "company": "",
       "industry": "",
@@ -262,43 +231,7 @@
           "type": "dashboard",
           "title": "Power BI Dashboard",
           "description": "The Insurance Claims Performance Dashboard is shown below. This interactive Power BI solution was developed using the SQL reporting dataset and business requirements outlined above. The following sections provide an overview of each dashboard page, highlighting its purpose and how it helps stakeholders monitor claims performance and key business KPIs.",
-          "slides": [
-            {
-              "title": "Claims Overview",
-              "description": [
-                "This page provides managers and executives with a high-level view of insurance claims performance, making it easy to monitor claim volumes, processing times, and whether key operational targets are being achieved.\n\nThe primary focus is the Over 100 Days KPI (target: fewer than 15 open claims over 100 days old), with colour-coded KPIs providing instant insight into overall claims performance and areas requiring attention.\n\nExecutive Summary: A single, high-level view of open claims, closed claims, processing times, and key operational KPIs.\nKPI Monitoring: Instantly identify whether the business is meeting its target of keeping claims over 100 days below the agreed threshold.\nClaims Distribution: Visualize claim volumes and age categories to better understand the current claims portfolio.\nTrend Analysis: Track month-over-month claim activity and processing performance to identify trends and emerging issues early."
-              ],
-              "image": "/project-project-summary-cc-3-slide-1.jpg"
-            },
-            {
-              "title": "Agent Claims Performance",
-              "description": [
-                "This page provides managers with a detailed view of individual agent performance, making it easy to monitor workload, track productivity, and identify claims that require immediate attention.\n\nThe primary focus is agent productivity, claim completion, and outstanding claims. Managers can quickly identify top-performing agents, monitor open workloads, and prioritize overdue claims through interactive visuals and colour-coded reporting.\n\nAgent Performance: Compare the number of closed claims by agent and claim type to measure productivity.\nOpen Claims Monitoring: Identify agents with the highest number of open claims, with claims over 100 days highlighted for immediate action.\nDetailed Claims Analysis: Review individual claim outcomes to better understand agent performance and workload.\nInteractive Filtering: Dynamically switch between claim type and age category to analyse claims from different"
-              ],
-              "image": "/project-project-summary-cc-3-slide-2.jpg"
-            },
-            {
-              "title": "Open Claims Management",
-              "description": [
-                "This page provides managers and claims teams with a dedicated view of all open claims, making it easy to monitor workloads, prioritize overdue cases, and ensure claims are progressing within service targets.\n\nThe primary focus is open claim management, allowing users to quickly identify aging claims, track upcoming due dates, and monitor workloads across the team to support timely claim resolution.\n\nOpen Claims Overview: View all open claims by age category to understand workload distribution at a glance.\nPriority Monitoring: Quickly identify overdue and high-risk claims so they can be actioned before service targets are missed.\nWorkload Management: Track assigned claims and due dates to help balance workloads across the team.\nImproved Visibility: Provides a centralized view of outstanding claims, helping managers prioritize work and improve processing efficiency."
-              ],
-              "image": "/project-project-summary-cc-3-slide-3.jpg"
-            },
-            {
-              "title": "Closed Claims Performance",
-              "description": [
-                "This page provides managers and executives with a detailed view of closed claims, making it easy to monitor claim completion trends, measure productivity, and evaluate how efficiently claims are being resolved.\n\nThe primary focus is claim closure performance, allowing users to compare monthly results, identify changes in productivity, and understand how quickly different claim types are being processed.\n\nPerformance Monitoring: Track the number of claims closed each month to measure operational performance over time.\nMonth-on-Month Analysis: Compare current results against the previous month to quickly identify improvements or declines in claim closures.\nClaims Resolution Insights: Analyze closed claims by claim type and age category to understand processing"
-              ],
-              "image": "/project-project-summary-cc-3-slide-4.jpg"
-            },
-            {
-              "title": "Raw Data",
-              "description": [
-                "This page was created to give stakeholders direct access to the underlying data, without the visualizations or formatting used in other pages.\n\nFull Data Table: Displays all claim records in a simple, unfiltered table for easy exploration.\nDownload / Export Option: Allows stakeholders to extract the data for further analysis outside of Power BI."
-              ],
-              "image": "/project-project-summary-cc-3-slide-5.jpg"
-            }
-          ]
+          "slides": []
         },
         {
           "type": "text",
